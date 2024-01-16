@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>6-3 2024 - TNS Class Website</title>
+	<link href="styles/home.css" rel="stylesheet" type="text/css" />
+	<link id="iconlink" rel="icon" type="image/png" href="/logos/5-X%202023.png">
+	<script src="maintanence.js"></script>
+	<style>:is(th,td):not([colspan]){width:calc(100 / 7 * 1%);}th[colspan]{border-left:1px solid var(--light-theme);border-right:1px solid var(--light-theme);}</style>
+</head>
+<body style="display: none;">
+	<h1 id="page-header">6-3 2024 Class Website</h1>
+	<h2 id="salutation">Welcome, <span id="welcome"></span>.</h2>
+	
+	<div class="widget-box noselect">
+		<div class="widget" data-to="https://vle.learning.moe.edu.sg/" id="sls-w">
+			<div id="sls-w-bg"><img src="https://vle.learning.moe.edu.sg/mrv/assets/LogoCompressedLight.d5640e14.svg" alt="SLS Logo"/></div>
+			SLS
+		</div>
+		<div class="widget" data-to="/homework.html" id="hw-w">
+			<div id="hw-w-bg"><img src="https://vle.learning.moe.edu.sg/mrv/assets/LogoCompressedLight.d5640e14.svg" alt="homework"/></div>
+			Homework
+		</div>
+		<div class="widget" data-to="https://taonan.moe.edu.sg/" id="tns-w">
+			<div id="tns-w-bg"><img src="https://taonan.moe.edu.sg/qql/slot/u182/2021/Heritage/School%20Crest%20and%20Motto/crest_image.jpg" alt="tns"/></div>
+			TNS Website
+		</div>
+	</div>
+	<!--
+	Template for announcements:
+	<div>
+		<header>Title</header>
+		<section>Content</section>
+	</div>
+	-->
+	<div id="announcements-container">
+		<em>No announcements</em>
+	</div>
+	<div id="resources">
+		<details>
+			<summary>Resources</summary>
+			<details open>
+				<summary>Revision</summary>
+				<!--<a href="resources/_revision/math/angles.html">Math Revision - Angles</a>
+				<br/>
+				<a href="resources/_revision/math/polygon.html">Math Revision - Polygons</a>-->
+        Coming soon
+			</details>
+		</details>
+	</div>
+	<div id="tools-container">
+		<div class="tool" data-link="https://mail.google.com" data-name="Gmail">
+			<img src="https://www.pngmart.com/files/16/Gmail-Logo-PNG-Transparent-Image.png" alt="Gmail"/>
+		</div>
+		<div class="tool" data-link="https://drive.google.com" data-name="Drive">
+			<img src="https://mailmeteor.com/logos/assets/PNG/Google_Drive_Logo_512px.png" alt="Drive"/>
+		</div>
+		<div class="tool" data-link="https://chat.google.com" data-name="Chat">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Google_Chat_icon_%282020%29.svg/1964px-Google_Chat_icon_%282020%29.svg.png" alt="Chat"/>
+		</div>
+		<div class="tool" data-link="https://classroom.google.com" data-name="Classroom">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png" alt="Classroom"/>
+		</div>
+		<div class="tool" data-link="https://phet.colorado.edu/en/simulations/browse" data-name="Simulations">
+			<img src="https://phet.colorado.edu/images/phet-social-media-logo.png" alt="PhET"/>
+		</div>
+		<div class="tool" data-link="https://www.ezhishi.net/EtutorStudent/index.aspx" data-name="eZhishi">
+			<img src="https://play-lh.googleusercontent.com/KpC4WRnKkY3w_vXjE7-IGFv-RP20rSuCluOx9iybg0OzBNoen4JYQ_fBpoHe-EBUuNY" alt="eZhishi"/>
+		</div>
+		<div class="tool" data-link="https://www.myskillsfuture.gov.sg/content/student/en/primary/overview.html" data-name="MySkillsFuture">
+			<img src="https://www.myskillsfuture.gov.sg/favicon.ico" alt="MySkillsFuture"/>
+		</div>
+	</div>
+	<p><button onclick="localStorage.clear();location.assign('/login.html');" id="sign-out-btn">Sign out</button></p>
+	<p>
+		<button id="toggletheme">
+			Light theme
+		</button>
+	</p>
+	<p>
+		TNS Class Website - by <a href="https://github.com/gohjy" target="_blank">gohjy</a>
+	</p>
+	<script src="home.js"></script>
+	<script src="theme.js"></script>
+	<script src="newLoginCheck.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
