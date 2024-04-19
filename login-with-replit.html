@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<!--<script src="/maintainence.js"></script>-->
+	<title>5-X 2023 Web Page</title>
+	<link href="styles/login.css" rel="stylesheet" type="text/css" />
+	<!--<script src="https://replit.com/public/js/repl-auth-v2.js"></script>-->
+	<link id="iconlink" rel="icon" type="image/png" href="/logos/5-X 2023.png">
+<script src="https://replit.com/public/js/repl-auth-v2.js"></script>
+	<script src="maintanence.js"></script>
+</head>
+<body>
+		<div class="site-header">
+			<div class="logo"></div>
+		</div>
+		<div class="site-content" id="login-div">
+			<div id="loginInnerDiv">
+				<h1>Login with Replit</h1>
+				
+				<button id="login-btn" onclick="LoginWithReplit()"> Login </button>
+				
+				
+				<p><a href="/login.html">Back to main login page</a></p>
+			</div>
+		</div>
+		<script type="module">
+			const user = await getUserInfo();
+			if (user) {
+				console.log(user)
+				var username = user.name
+				localStorage.setItem("replit-username", username)
+				location.assign("/login.html")
+				login_with_replit()
+			}
+			</script>
+		<script src="loginScriptNew.js"></script>
+</body>
+</html>

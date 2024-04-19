@@ -1,0 +1,92 @@
+@import "https://fonts.googleapis.com/css2?family=EB+Garamond";
+
+body, * {
+	font-family: "EB Garamond", 'Courier New', Courier, monospace;
+	text-align: center;
+}
+
+body {
+	padding: 0;
+	margin: 0 !important;
+	margin-top: 0 !important;
+	position: relative;
+	top: -20px;
+	overflow: auto;
+}
+
+a {
+	color: blue;
+}
+
+body > header#main-si-header {
+	width: 100%;
+	background-color: red;
+	position: relative;
+}
+
+body > header#main-si-header > h1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+body > header#main-si-header > div#si-tab-holder {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	align-content: flex-end;
+	position: sticky;
+	top: 28px;
+}
+
+#si-tab-holder > si-tab {
+	background-color: yellowgreen;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border: 2px double black;
+	width: 100px;
+	padding: 5px;
+	flex: 1 1 0;
+	box-sizing: content-box;
+	min-height: 21px;
+	height: 100%;
+}
+
+#si-tab-holder > si-tab.active {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+#main-si-content-section > section[id] {
+	display: none;
+}
+
+#main-si-content-section > section[id].active {
+	display: block;
+}
+
+#main-si-content-section > section[id] > :is(h1, h2, h3, h4, h5, h6, header) {
+	text-align: center;
+}
+
+#main-si-content-section > section[id] {
+	text-align: justify;
+}
+
+#si-tab-holder > si-tab[data-restricted]:not(.active) {
+	display: none;
+}
+
+footer#main-footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: white;
+	border-top: 1px solid black;
+}
+
+footer#filler-footer {
+	visibility: hidden;
+}

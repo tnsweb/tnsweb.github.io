@@ -1,0 +1,39 @@
+@import "https://fonts.googleapis.com/css2?family=Comfortaa";
+
+body, * {
+	font-family: Comfortaa, 'Courier New', Courier, monospace;
+	text-align: center;
+}
+
+issue-samples {
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	min-height: 150px;
+	clear: both;
+	position: static;
+}
+
+a {
+	color: blue;
+}
+
+a img, a issue-samples, a issue-samples * {
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+
+img {
+	max-height: 100%;
+	width: auto;
+	max-width: auto;
+}
+
+issue-samples img {
+	height: 150px;
+	width: auto;
+}

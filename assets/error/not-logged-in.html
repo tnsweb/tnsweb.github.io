@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Not logged in!</title>
+	<link href="/styles/_main.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" href="/logos/5-X%202023.png">
+	<script src="/maintanence.js"></script>
+</head>
+
+<body>
+	<h1 id="main-header">Please login to access this content</h1>
+	<p><a href="/login.html" id="linkthing">Login</a></p>
+	<script>
+		if ((localStorage.getItem("local-user-name") !== null) && (location.pathname !== "/")) {
+			location.replace("/");
+		};
+		document.querySelector("#linkthing").href = new URL("/login.html?to=" + location.searchParams.get("to"));
+	</script>
+</body>
+</html>
