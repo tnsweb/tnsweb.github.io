@@ -1,7 +1,7 @@
 let messages = [
 	{
 		from:	"Aidan",
-		message: "Thank you for preparing all out science experiments!"
+		message: ""
 	},
 	{
 		from:	"Amanda",
@@ -13,11 +13,11 @@ let messages = [
 	},
 	{
 		from:	"Ian",
-		message: "Thank you for helping take care of the science lab for so many classes."
+		message: ""
 	},
 	{
 		from:	"Jingxuan",
-		message: "Thank you!"
+		message: ""
 	},
 	{
 		from:	"Yi Qun",
@@ -25,24 +25,23 @@ let messages = [
 	},
 	{
 		from:	"Xinyuan",
-		message: "Thank you for making our science experiments possible!"
+		message: ""
 	},
 	{
 		from:	"Jia En",
-		message: `Dear Aunty Catherine,
-Even though we do not know you that well, thank you for all your hard work in TNS! Because of you, we have all our materials ready for our Science Lab lessons :)`
+		message: ""
 	},
 	{
 		from:	"Brett",
-		message: "Thank you auntie catherine"
+		message: ""
 	},
 	{
 		from:	"Sarah",
-		message: "Thank you for preparing all of our science experiments!"
+		message: ""
 	},
 	{
 		from:	"Xinye",
-		message: "Thank you for the neat and organised science labs!"
+		message: ""
 	},
 	{
 		from:	"Xander",
@@ -62,11 +61,11 @@ Even though we do not know you that well, thank you for all your hard work in TN
 	},
 	{
 		from:	"Jun Ying",
-		message: "Thank you for helping to organise the Science labs!"
+		message: ""
 	},
 	{
 		from:	"Kye",
-		message: "How has it been? I hope you're having a nice time in TNS"
+		message: ""
 	},
 	{
 		from:	"Mingze",
@@ -86,27 +85,27 @@ Even though we do not know you that well, thank you for all your hard work in TN
 	},
 	{
 		from:	"Haoran",
-		message: "Thank you for helping us prepare all the science equipment we need for our science lessons. I really appreciate your help!"
+		message: ""
 	},
 	{
 		from:	"Nicole",
-		message: "Thank you Auntie Catherine for helping us with all the science equipment!"
+		message: ""
 	},
 	{
 		from:	"Sophie",
-		message: "Thank you for preparing the lab materials!"
+		message: ""
 	},
 	{
 		from:	"Xinrun",
-		message: "Thank you for helping us with science experiments!"
+		message: ""
 	},
 	{
 		from:	"Wayne",
-		message: "Thank you for organizing the science labs and preparing all the materials that the school need for science experiments"
+		message: ""
 	},
 	{
 		from:	"Kayle",
-		message: "I love you"
+		message: ""
 	},
 ];
 
