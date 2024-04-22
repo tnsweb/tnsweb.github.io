@@ -1,12 +1,4 @@
-if (
-	(localStorage.getItem("local-gep") !== "5-3") && (localStorage.getItem("ntsad") !== "digicard") && (!((localStorage.getItem("onlyAllowed").split(",").includes(location.pathname + location.search + location.hash))))
-) {
-	location.replace("/assets/error/no-access-right.html");
-}
-
-
-var messages = [
-	/*pre-filled for 5-3*/
+let messages = [
 	{
 		from:	"Aidan",
 		message: "Thank you for preparing all out science experiments!"
