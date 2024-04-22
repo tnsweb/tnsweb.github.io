@@ -305,40 +305,40 @@ function setLSVars_v2(userObj) {
 let classes = {
 	GEP: {
 		"5-1": {
-			name: "5-1",
+			name: "6-1",
 			mixedFC: ["5I", "5J"],
 			mainstreamEquiv: "5-3",
 			type: "ms"
 		},
 		"5-3": {
-			name: "5-3",
+			name: "6-3",
 			mixedFC: ["5I", "5J"],
 			mainstreamEquiv: "5-1"
 		},
 		"5-4": {
-			name: "5-4",
+			name: "6-4",
 			mixedFC: ["5K", "5L"],
 			mainstreamEquiv: "5-2"
 		}
 	},
 	mixedFC: {
 		"5I": {
-			name: "5I",
+			name: "6I",
 			mainstreamEquiv: "5-1",
 			GEPequiv: "5-3"
 		},
 		"5J": {
-			name: "5J",
+			name: "6J",
 			mainstreamEquiv: "5-1",
 			GEPequiv: "5-3"
 		},
 		"5K": {
-			name: "5K",
+			name: "6K",
 			mainstreamEquiv: "5-2",
 			GEPequiv: "5-4"
 		},
 		"5L": {
-			name: "5L",
+			name: "6L",
 			mainstreamEquiv: "5-2",
 			GEPequiv: "5-4"
 		}
