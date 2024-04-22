@@ -6,7 +6,7 @@ let userObj = JSON.parse(localStorage.getItem("accounts-v2-userObj"));
 	welcometext.textContent = username;
 	
 	let pageheader = document.querySelector("#page-header");
-	let GEPclass = userObj.GEPclass.name + " 2023"
+	let GEPclass = userObj.GEPclass.name + " 2024"
 	
 	pageheader.innerText = document.title = GEPclass;
 }
@@ -21,7 +21,7 @@ let userObj = JSON.parse(localStorage.getItem("accounts-v2-userObj"));
 }
 
 {
-	document.getElementById("iconlink").href = `/logos/${userObj.GEPclass.name||"5-X"}%202023.png`;
+	document.getElementById("iconlink").href = `/logos/logo.png`;
 }
 	
 {	
