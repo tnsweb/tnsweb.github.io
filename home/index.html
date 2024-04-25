@@ -4,10 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>TNS WEB</title>
-	<link href="styles/home.css" rel="stylesheet" type="text/css" />
+	<link href="/styles/home.css" rel="stylesheet" type="text/css" />
 	<link id="iconlink" rel="icon" type="image/png" href="/logos/logo.png">
-	<script src="maintanence.js"></script>
-	<style>:is(th,td):not([colspan]){width:calc(100 / 7 * 1%);}th[colspan]{border-left:1px solid var(--light-theme);border-right:1px solid var(--light-theme);}</style>
+	<script src="/not-available/script.js"></script>
 </head>
 <body style="display: none;">
 	<h1 id="page-header">TNS WEB</h1>
@@ -18,7 +17,7 @@
 			<div id="sls-w-bg"><img src="https://vle.learning.moe.edu.sg/mrv/assets/LogoCompressedLight.d5640e14.svg" alt="SLS Logo"/></div>
 			SLS
 		</div>
-		<div class="widget" data-to="/homework.html" id="hw-w">
+		<div class="widget" data-to="/homework/" id="hw-w">
 			<div id="hw-w-bg"><img src="https://vle.learning.moe.edu.sg/mrv/assets/LogoCompressedLight.d5640e14.svg" alt="homework"/></div>
 			Homework
 		</div>
@@ -88,15 +87,14 @@
 			<img src="https://www.myskillsfuture.gov.sg/favicon.ico" alt="MySkillsFuture"/>
 		</div>
 	</div>
-	<p><button onclick="document.cookie='REPL_AUTH=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';localStorage.clear();location.assign('/login.html');" id="sign-out-btn">Sign out</button></p>
+	<p><button onclick="localStorage.clear();location.assign('/login.html');" id="sign-out-btn">Sign out</button></p>
 	<p>
 		<button id="toggletheme">
 			Light theme
 		</button>
 	</p>
-	<script src="home.js"></script>
-	<script src="theme.js"></script>
-	<script src="newLoginCheck.js"></script>
-	<script src="script.js"></script>
+	<script src="./home.js"></script>
+	<script src="/theme.js"></script>
+	<script src="/login/loginCheck.js"></script>
 </body>
 </html>
