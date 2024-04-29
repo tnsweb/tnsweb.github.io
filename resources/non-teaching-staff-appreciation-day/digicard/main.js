@@ -98,7 +98,7 @@ let messages = [
 	},
 	{
 		from:	"Xinrun",
-		message: ""
+		message: "Thank you for being so patient even when we are so annoying"
 	},
 	{
 		from:	"Wayne",
