@@ -13,7 +13,8 @@ let messages = [
 	},
 	{
 		from:	"Ian",
-		message: ""
+		message: "Thank you Mr Darren for taking care of the bookshop and helping to sell stationery to all the kids who need it. \
+			Whenever I go to the bookshop you are nice to everyone, making buying school items a cheerful task"
 	},
 	{
 		from:	"Jingxuan",
