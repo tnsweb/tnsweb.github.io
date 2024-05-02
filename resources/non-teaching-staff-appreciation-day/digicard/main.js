@@ -46,7 +46,7 @@ let messages = [
 	},
 	{
 		from:	"Xander",
-		message: ""
+		message: "Thank you for being so kind to us!"
 	},
 	{
 		from:	"Muen",
