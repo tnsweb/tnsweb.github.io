@@ -26,7 +26,7 @@ let messages = [
 	},
 	{
 		from:	"Xinyuan",
-		message: ""
+		message: "Thank you so much for selling things that are useful to us!"
 	},
 	{
 		from:	"Jia En",
