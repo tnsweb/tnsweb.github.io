@@ -62,7 +62,7 @@ let messages = [
 	},
 	{
 		from:	"Jun Ying",
-		message: ""
+		message: "Thank you for helping me find what I need in the bookshop!"
 	},
 	{
 		from:	"Kye",
