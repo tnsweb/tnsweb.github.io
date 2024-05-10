@@ -4,6 +4,20 @@ document.getElementById("iconlink").href = "/logos/logo.png";
 document.title = "Homework - " + (userObj.GEPclass.name||userObj.mixedFC.name) + " 2024";
 
 let homework = [
+	{
+		classN: "6-3",
+		startdate: new Date(2024, 4, 10),
+		duedate: new Date(2024, 4, 13),
+		subject: "MATH",
+		title: "Filing and Corrections - Pie Charts, CT, Bring Maths File"
+	},
+	{
+		classN: "6-3",
+		startdate: new Date(2024, 4, 10),
+		duedate: new Date(2024, 4, 13),
+		subject: "MATH",
+		title: "SLS on Nets (due date not confirmed)"
+	}
 	/*Format:
  
  		classN: "class_name" e.g. "5-3", "5J"
