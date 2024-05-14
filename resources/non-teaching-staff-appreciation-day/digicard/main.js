@@ -18,11 +18,14 @@ let messages = [
 	},
 	{
 		from:	"Jingxuan",
-		message: ""
+		message: "Thanks for giving me a place to spend money and making me feel rich!"
 	},
 	{
 		from:	"Yi Qun",
-		message: ""
+		message: "Thank you for providing us with stationery! \
+			You might want to consider not selling toys as it can be disruptive when people are playing in class. \
+			Also, you could make your prices more affordable so that students will buy from you instead of \
+			places like Popular (currently 50% cheaper)."
 	},
 	{
 		from:	"Xinyuan",
@@ -34,7 +37,7 @@ let messages = [
 	},
 	{
 		from:	"Brett",
-		message: ""
+		message: "Thank you Mr Darren!"
 	},
 	{
 		from:	"Sarah",
@@ -50,15 +53,15 @@ let messages = [
 	},
 	{
 		from:	"Muen",
-		message: ""
+		message: "Thank you for providing us with necessities we need for school!"
 	},
 	{
 		from:	"Chenye",
-		message: ""
+		message: "Thank you for helping us out by selling stationery! You have saved me many times!"
 	},
 	{
 		from:	"Richelle",
-		message: ""
+		message: "Thank you Mr Darren!"
 	},
 	{
 		from:	"Jun Ying",
@@ -66,7 +69,7 @@ let messages = [
 	},
 	{
 		from:	"Kye",
-		message: "Thanks for selling us useful things!"
+		message: "Thanks for selling me stationery! You have really helped me out!"
 	},
 	{
 		from:	"Mingze",
@@ -78,7 +81,7 @@ let messages = [
 	},
 	{
 		from:	"Jaycus",
-		message: ""
+		message: "Thank you for selling me stuff! You are the reason I don't get killed by my Science teacher."
 	},
 	{
 		from:	"Zechen",
@@ -86,7 +89,7 @@ let messages = [
 	},
 	{
 		from:	"Haoran",
-		message: ""
+		message: "Thank you for being very kind to me when I purchase stationery!"
 	},
 	{
 		from:	"Nicole",
@@ -106,7 +109,7 @@ let messages = [
 	},
 	{
 		from:	"Kayle",
-		message: ""
+		message: "Thank you so much for working hard every day to sell things!"
 	},
 ];
 
