@@ -105,7 +105,7 @@ let messages = [
 	},
 	{
 		from:	"Wayne",
-		message: ""
+		message: "Thank you for selling stationery and note books to us!"
 	},
 	{
 		from:	"Kayle",
