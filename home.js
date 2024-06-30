@@ -1,14 +1,17 @@
 let userObj = JSON.parse(localStorage.getItem("accounts-v2-userObj"));
+const isGuest = !!userObj.guest;
 {
 	let username = userObj.name;
 	let welcometext = document.querySelector("#welcome");
 	
 	welcometext.textContent = username;
-	
-	let pageheader = document.querySelector("#page-header");
-	let GEPclass = userObj.GEPclass.name + " 2024"
-	
-	pageheader.innerText = document.title = GEPclass;
+
+	if (!isGuest) {
+		let pageheader = document.querySelector("#page-header");
+		let GEPclass = userObj.GEPclass.name + " 2024"
+		
+		pageheader.innerText = document.title = GEPclass;
+	}
 }
 
 {
