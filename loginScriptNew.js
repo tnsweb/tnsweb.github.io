@@ -790,6 +790,11 @@ let users = [
 		password: "67269e827bfec6a0fd11bc610d8cf53fb394637c91ac395aea3a9001579e14f30dff86cab04101bef664ea4b89378745032e0494c8d3367c631fd50141861998",
 		GEPclass: classes.GEP["5-1"],
 		mixedFC: classes.mixedFC["5I"]
+	},
+	{
+		name: "DSA Guest User",
+		username: "DSAguestuser",
+		password: "fa882e08731a32fb147dc92d2c8c13cd7d68b6ee3c18d00b6cad8ba0db986cef43f769eb712cd0b4567cac8e43e9a68d38721d43fc4eefb0ea25b77793a14269" // 2024hcidsa#
 	}
 ]
 
