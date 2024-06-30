@@ -2,13 +2,9 @@ try {
 	let userObj = JSON.parse(localStorage.getItem("accounts-v2-userObj"));
 	// alert(userObj);
 	if ((userObj === null) && (location.pathname !== "/assets/error/not-logged-in.html")) {
-		location.replace("/assets/error/not-logged-in.html");
-		/* let sp = new URLSearchParams();
-		sp.append("to", location.pathname);
-		let newURL = new URL();
-		newURL.href = "/assets/error/not-logged-in.html";
-		newURL.search = sp;
-		location.href = newURL; */
+		let newURL = new URL("/assets/error/not-logged-in.html", "https://tnsweb.github.io/");
+		newURL.searchParams.append("to", location.pathname);
+		location.href = newURL;
 	} else {
 		if (userObj.restrictedAccess === true) {
 			let allowed = userObj.allowed;
