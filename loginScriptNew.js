@@ -794,7 +794,8 @@ let users = [
 	{
 		name: "DSA Guest User",
 		username: "DSAguestuser",
-		password: "fa882e08731a32fb147dc92d2c8c13cd7d68b6ee3c18d00b6cad8ba0db986cef43f769eb712cd0b4567cac8e43e9a68d38721d43fc4eefb0ea25b77793a14269" // 2024hcidsa#
+		password: "fa882e08731a32fb147dc92d2c8c13cd7d68b6ee3c18d00b6cad8ba0db986cef43f769eb712cd0b4567cac8e43e9a68d38721d43fc4eefb0ea25b77793a14269", // 2024hcidsa#
+		guest: true
 	}
 ]
 
