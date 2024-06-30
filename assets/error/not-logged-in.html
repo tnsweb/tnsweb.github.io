@@ -4,9 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Not logged in!</title>
-	<link href="/styles/_main.css" rel="stylesheet" type="text/css" />
-	<link rel="icon" type="image/png" href="/logos/5-X%202023.png">
+	<title>TNS WEB - Not logged in!</title>
+	<link href="/styles/main.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" href="/logos/logo.png">
 	<script src="/maintanence.js"></script>
 </head>
 
@@ -14,10 +14,12 @@
 	<h1 id="main-header">Please login to access this content</h1>
 	<p><a href="/login.html" id="linkthing">Login</a></p>
 	<script>
-		if ((localStorage.getItem("local-user-name") !== null) && (location.pathname !== "/")) {
+		let userObj = JSON.parse(localStorage.getItem("accounts-v2-userObj"));
+		if (userObj !== null) {
 			location.replace("/");
-		};
-		document.querySelector("#linkthing").href = new URL("/login.html?to=" + location.searchParams.get("to"));
+		}
+		let sp = new URL(document.location).searchParams;
+		document.querySelector("#linkthing").href = new URL("/login.html?to=" + sp.get("to"));
 	</script>
 </body>
 </html>
