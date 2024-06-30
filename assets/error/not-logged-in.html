@@ -19,7 +19,7 @@
 			location.replace("/");
 		}
 		let sp = new URL(document.location).searchParams;
-		document.querySelector("#linkthing").href = new URL("/login.html?to=" + sp.get("to"));
+		document.querySelector("#linkthing").setAttribute("href", new URL("/login.html?to=" + sp.get("to")).href);
 	</script>
 </body>
 </html>
