@@ -829,10 +829,12 @@ function loginsys(username, password) {
 	for (i = 0; i < users.length; i++) {
 		if (users[i].username == username) {*/
 	setLSVars_v2(users[i]);
+	let sp = new URL(location.href).searchParams;
+	let goto = sp.get("to");
 	location.replace(
 		users[i].restrictedAccess ?
 		users[i].allowed[0]
-		: "/");
+		: (goto === null ? "/" : goto));
 	/*
 	if (users[i].restrictedAccess) {
 		let allowed = users[i].allowed;
